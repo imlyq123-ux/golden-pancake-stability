@@ -4,6 +4,8 @@ Reproducible numerical study of the linear (spectral) stability of the **already
 Golden Pancake Drama family (Three Body Orbits atlas, 2026) — planar Newtonian three-body
 problem, `G = 1`, masses `(1, mu, 1)` — and of its continuation to unequal outer masses.
 
+**Authors:** Yuanqing Liu, Han Liu and Anqing Xuan.
+
 **Status (2026-10-12, second session): numerically verified with two independent
 multiprecision pipelines and against the atlas's own data; not interval-certified.** The
 orbit family is not new; what is new is the location and type of its stability transitions.
@@ -67,11 +69,12 @@ are reproduced. See [`results/independent_crosscheck.md`](results/independent_cr
 ## Installation (tested on Linux x86-64, Python 3.12.3, GCC 13.3, MPFR 4.2.1)
 
 ```bash
+git clone https://github.com/<account>/<repository>.git && cd <repository>
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock.txt
 make deps        # only if /usr/include/mpfr.h is missing: fetches libmpfr-dev/libgmp-dev headers into .deps/ (no root)
 make all         # builds tools/taylor_mpfr and tools/gbs_mpfr against the system libmpfr.so.6
-make test
+make test        # 34 tests
 ```
 
 `make deps` uses `apt-get download` (Debian/Ubuntu). On other systems install the MPFR and GMP
@@ -104,7 +107,7 @@ every code version used are in `results/source_snapshots/`.
 
 | Path | Contents |
 |---|---|
-| `threebody_codex_project/` (+ `.zip`) | original archive, unchanged (SHA256 manifest checked by tests) |
+| `threebody_codex_project/` | original archive, unchanged (SHA256 manifest checked by tests); the duplicate `.zip` is not in the repository |
 | `threebody_expand.py`, `pancake_*.py`, `make_pancake_results.py` | binary64 tools (first session, portable) |
 | `high_precision.py`, `tools/taylor_mpfr.cpp`, `finalize_results.py`, `verify_time_reversal.py` | first-session MP pipeline |
 | `tools/gbs_mpfr.cpp`, `independent_mp.py`, `crosscheck_report.py` | independent MP pipeline (this session) |
@@ -112,6 +115,8 @@ every code version used are in `results/source_snapshots/`.
 | `dense_sweep_double.py`, `isola_scan_double.py`, `isola_scan_summary.py` | binary64 continuation and stability scans |
 | `asymmetric_double.py`, `asymmetric_summary.py` | Phase E (unequal outer masses) |
 | `make_figures.py` | figures of this session |
+| `tools/run_parallel.sh`, `tools/write_manifest.py` | parallel job runner that fails on any failed job; SHA256 manifest writer |
+| `LICENSE`, `LICENSE-DATA.md` | MIT licence for code; CC BY 4.0 for data, figures and text |
 | `results/` | records, logs, reports; `figures/`; `tests/`; `paper/` (manuscript draft) |
 
 ## Limitations
@@ -122,3 +127,14 @@ scans can miss features smaller than their step; they stop before the binary-col
 limits of the isola. Spectral stability only (no nonlinear/KAM statement). Phase E is binary64.
 Novelty was assessed against the atlas draft, catalogue and the literature listed in
 `results/literature_audit.md`; worldwide priority cannot be proven.
+
+## License
+
+* **Code** (Python scripts, `tools/`, `tests/`, `Makefile`): MIT License — see [`LICENSE`](LICENSE).
+* **Data, figures and text** (`results/`, `figures/`, `paper/`, Markdown documents): Creative
+  Commons Attribution 4.0 International (CC BY 4.0) — see [`LICENSE-DATA.md`](LICENSE-DATA.md).
+
+Third-party material is excluded from these grants: the Golden Pancake Drama family and the
+values taken from the Three Body Orbits atlas (`results/literature/atlas_reference_data.json`)
+belong to the atlas and are included for comparison with citation; please cite the atlas when
+using the family. Copyright (c) 2026 Yuanqing Liu, Han Liu and Anqing Xuan.

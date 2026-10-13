@@ -1,11 +1,13 @@
 {
  "algorithm": "sha256",
- "count": 2025,
+ "count": 2027,
  "files": {
   ".gitignore": "0b40a1f58ec08d029461de6902a61ab5fb93161479d7aca31e444836ce3883d4",
   "AGENTS.md": "0bfcb78cf91d53b2dc2ee7d742c359c82ebe48e5339cfa5257aaf35408b209f8",
+  "LICENSE": "96b5e5f5b424eb34163e7651811a7a1a72cf9058e48923320e44e7aad5f80331",
+  "LICENSE-DATA.md": "77531f2ee30fffcc3267912a9ecbef0b4c6d423a317f912088356d5b33ee90a0",
   "Makefile": "451e6beef57dbcb762e7d918c79072eee9b175f9c6c06cd20d4a7d8f185257f5",
-  "README.md": "01a0fae2165b66a62991cf97d3ab8c48c705e391cbbfb1465361caff05d87aa1",
+  "README.md": "c226d7a156ff1c6758b2ef0c5c5c14ef3698391ef64434c0a181bc9c9b8fa4f0",
   "asymmetric_double.py": "a149ee18d513c64793a316cc808ee258301ba7bfdd7a59ae01a17f2f024fa351",
   "asymmetric_summary.py": "896520bbbc0cdf3b5936d4019132802806a16314c41d1cb9ca7600851d2fea8f",
   "crosscheck_report.py": "fa4bd01f2a90902788974466454eb33424758c0d77af8e57d8304a2754f362d8",
