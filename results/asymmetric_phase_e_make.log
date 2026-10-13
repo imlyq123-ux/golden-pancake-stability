@@ -1,0 +1,88 @@
+.venv/bin/python asymmetric_double.py --label main_window --mu-center 0.613 --uvT 0.151481541079005834,0.140303019570684087,8.846608333332379 --deltas 0:0.012:0.0005 --mu-range 0.594,0.624 --mu-step 0.0005 --workers 8 > results/asymmetric_main_window.log 2>&1
+MPLCONFIGDIR=/tmp/threebody-mpl .venv/bin/python asymmetric_summary.py
+{
+ "status": "binary64 exploratory 2D scan; not multiprecision-verified",
+ "all_rows_complete": true,
+ "centre_continuation_failure": null,
+ "incomplete_rows": [],
+ "closing_sign_changes_not_interpreted_due_to_incomplete_rows": [],
+ "max_abs_theta": 3.8510984681453e-11,
+ "max_closure": 1.9972462032249458e-11,
+ "quadratic_fits_mu_star_vs_delta2": {
+  "mu_lower": {
+   "symmetric_value": 0.5990437842088998,
+   "rows_used": 13,
+   "c2": 123.33532887024234,
+   "c4": -75071.81922289376,
+   "max_fit_residual": 1.0795634739121582e-05,
+   "fit_range": "delta <= 0.006",
+   "difference_quotients": [
+    126.12194556504974,
+    125.85955536836835
+   ],
+   "c2_small_delta_richardson": 126.20940896394355,
+   "delta0_scan_value": 0.5990437842371765,
+   "delta0_scan_error": 2.8276714303387962e-11
+  },
+  "mu_upper": {
+   "symmetric_value": 0.6178442682090631,
+   "rows_used": 13,
+   "c2": -37.92635122429771,
+   "c4": -267035.0794854219,
+   "max_fit_residual": 5.433830236353408e-06,
+   "fit_range": "delta <= 0.006",
+   "difference_quotients": [
+    -39.10383953176222,
+    -39.235238805890305
+   ],
+   "c2_small_delta_richardson": -39.060039773719524,
+   "delta0_scan_value": 0.6178442681652289,
+   "delta0_scan_error": -4.383426954746028e-11
+  }
+ },
+ "window_closing": {
+  "delta_between": [
+   0.0085,
+   0.009
+  ],
+  "delta_linear_estimate": 0.008619290054284417,
+  "mu_near": 0.611
+ },
+ "mirror_symmetry_check": {
+  "delta": -0.004,
+  "mirror_crossings": [
+   0.6009974503091495,
+   0.6171688946953161
+  ],
+  "positive_delta_crossings": [
+   0.6009974503365536,
+   0.6171688946706817
+  ],
+  "max_difference": 2.740407900603259e-11
+ }
+}
+delta=0.0000 complete=True mu_L=0.5990437842371765 mu_R=0.6178442681652289 maxD=0.9686048299064739 stable_pts=37
+delta=0.0005 complete=True mu_L=0.5990753146952911 mu_R=0.6178344922491802 maxD=0.9653459558399373 stable_pts=37
+delta=0.0010 complete=True mu_L=0.5991696437642682 mu_R=0.6178050329702572 maxD=0.9555693699212181 stable_pts=37
+delta=0.0015 complete=True mu_L=0.5993260240133497 mu_R=0.6177554884728826 maxD=0.9392752451364499 stable_pts=37
+delta=0.0020 complete=True mu_L=0.5995433360614226 mu_R=0.617685164141175 maxD=0.9164638310155458 stable_pts=36
+delta=0.0025 complete=True mu_L=0.5998202626767674 mu_R=0.6175930317193428 maxD=0.8871355261321133 stable_pts=36
+delta=0.0030 complete=True mu_L=0.600155508694815 mu_R=0.6174776649164522 maxD=0.85129080252772 stable_pts=34
+delta=0.0035 complete=True mu_L=0.600548055496665 mu_R=0.6173371413837335 maxD=0.8089302897591388 stable_pts=33
+delta=0.0040 complete=True mu_L=0.6009974503365536 mu_R=0.6171688946706817 maxD=0.7600547040998199 stable_pts=33
+delta=0.0045 complete=True mu_L=0.6015041500397922 mu_R=0.6169694869430782 maxD=0.7046649093096814 stable_pts=30
+delta=0.0050 complete=True mu_L=0.6020699676974354 mu_R=0.6167342487295342 maxD=0.6427619024642774 stable_pts=29
+delta=0.0055 complete=True mu_L=0.6026987291126642 mu_R=0.6164566821188842 maxD=0.5743468289482059 stable_pts=27
+delta=0.0060 complete=True mu_L=0.6033973586052548 mu_R=0.616127408271739 maxD=0.4994209712059925 stable_pts=26
+delta=0.0065 complete=True mu_L=0.6041779120114313 mu_R=0.6157321496477739 maxD=0.4179857913821796 stable_pts=23
+delta=0.0070 complete=True mu_L=0.6050619262786897 mu_R=0.6152473805291163 maxD=0.33004290186087537 stable_pts=20
+delta=0.0075 complete=True mu_L=0.6060915940652036 mu_R=0.6146291422468918 maxD=0.23559411787660633 stable_pts=17
+delta=0.0080 complete=True mu_L=0.6073687132791555 mu_R=0.6137740776326165 maxD=0.1346414319099788 stable_pts=13
+delta=0.0085 complete=True mu_L=0.6093523393163148 mu_R=0.6122217570705316 maxD=0.02718706988965347 stable_pts=6
+delta=0.0090 complete=True mu_L=None mu_R=None maxD=-0.08676656209056566 stable_pts=0
+delta=0.0095 complete=True mu_L=None mu_R=None maxD=-0.20721679062466092 stable_pts=0
+delta=0.0100 complete=True mu_L=None mu_R=None maxD=-0.3341607184819846 stable_pts=0
+delta=0.0105 complete=True mu_L=None mu_R=None maxD=-0.46723225917410316 stable_pts=0
+delta=0.0110 complete=True mu_L=None mu_R=None maxD=-0.6066945013428217 stable_pts=0
+delta=0.0115 complete=True mu_L=None mu_R=None maxD=-0.7526210111977508 stable_pts=0
+delta=0.0120 complete=True mu_L=None mu_R=None maxD=-0.9050080562277356 stable_pts=0

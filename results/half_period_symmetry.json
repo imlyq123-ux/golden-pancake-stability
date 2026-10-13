@@ -1,0 +1,592 @@
+{
+ "description": "Half-period reflection symmetry of the Golden Pancake orbits and the half-period map N.\n\nEach Euler-section orbit on the isola satisfies X(T/2) = sigma X(0), where sigma reflects every\nposition and velocity across a line through the centre of mass (axis angle depends on mu).\nReflections commute with the Newtonian flow, hence X(t + T/2) = sigma X(t) and the monodromy is\na square, M = N^2 with N = sigma * DPhi_{T/2}(X(0)). Consequences used in the analysis:\n  * nontrivial pair sums satisfy s_M = s_N^2 - 2, so s_M + 2 = s_N^2 >= 0 when s_N is real:\n    M-multipliers can only touch -1 (when N-multipliers pass +-i, a 1:4 resonance of N), so the\n    spectral stability of M cannot change there; this is spectral only and does not exclude\n    nonlinear bifurcations at such resonances (e.g. symmetry-breaking period-2T orbits);\n    |lambda_M| = |lambda_N|^2, so M and N are spectrally stable together;\n  * N has trivial multipliers +1 (time/energy, translation along the axis) and -1\n    (rotation/angular momentum, translation across the axis), four each.\nThis script integrates X(0) -> X(T/2) with the 12 variational columns using the independent\nGBS integrator, measures the symmetry defect, forms N, compares N^2 with the saved full-period\nmonodromy, and reports the nontrivial spectrum of N.\n",
+ "source": "/home/alan/three_body/results/independent_gbs_orbits.json",
+ "digits": 80,
+ "results": [
+  {
+   "mu": "0.613",
+   "axis_angle_degrees": "139.40061389479969835",
+   "symmetry_defect_max_abs": "4.34326e-63",
+   "N_squared_minus_M_max_abs": "1.26511e-59",
+   "D_N": "0.1517032841712691490915964",
+   "s_N": [
+    [
+     "-1.023559897180650067037664",
+     "0.0"
+    ],
+    [
+     "-1.413050955064228633144363",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.9523251368835370629471362",
+    "-0.003286998392071312189899725"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.9523251368835370629471362",
+    "-0.003286998392071312189899725"
+   ],
+   "pair_sum_identity_defect": "1.34565e-59",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=411 rejected=163 rhs_evaluations=344974",
+    "runtime_seconds": 12.112294140999438,
+    "raw_file": "results/gbs_raw_half_period/half_0p613.csv",
+    "raw_sha256": "bc3e8944415d16a57b6c4949146d7cd676c54bc553682f92fc6667b0e56803c1"
+   }
+  },
+  {
+   "mu": "0.5990",
+   "axis_angle_degrees": "146.84867351929859037",
+   "symmetry_defect_max_abs": "2.49489e-63",
+   "N_squared_minus_M_max_abs": "3.15001e-60",
+   "D_N": "-0.0006598620812608546019817067",
+   "s_N": [
+    [
+     "-1.112813268920072271515259",
+     "0.0128438903886327856848659"
+    ],
+    [
+     "-1.112813268920072271515259",
+     "-0.0128438903886327856848659"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7618115940357381262818062",
+    "-0.7618115940357381262818062"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7618115940357381262818062",
+    "-0.7618115940357381262818062"
+   ],
+   "pair_sum_identity_defect": "5.84661e-62",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=437 rejected=173 rhs_evaluations=366610",
+    "runtime_seconds": 16.430962053000258,
+    "raw_file": "results/gbs_raw_half_period/half_0p5990.csv",
+    "raw_sha256": "804efd313acfae03b2e9638efa919e0de8bbdac64d43b4fa8785d4362265545a"
+   }
+  },
+  {
+   "mu": "0.5991",
+   "axis_angle_degrees": "146.80177688583352815",
+   "symmetry_defect_max_abs": "7.07926e-63",
+   "N_squared_minus_M_max_abs": "9.63526e-60",
+   "D_N": "0.0008497941534344851730872885",
+   "s_N": [
+    [
+     "-1.10031337609487455478761",
+     "0.0"
+    ],
+    [
+     "-1.129464605115869281504733",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7893104743866991406412935",
+    "-0.7243097057904534704538203"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7893104743866991406412935",
+    "-0.7243097057904534704538203"
+   ],
+   "pair_sum_identity_defect": "2.55011e-58",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=437 rejected=174 rhs_evaluations=367211",
+    "runtime_seconds": 16.80417830100123,
+    "raw_file": "results/gbs_raw_half_period/half_0p5991.csv",
+    "raw_sha256": "0ff461526cdf8ae5b663d5339912f5de2b6a21dad6ee6770b98d81cbd0757c83"
+   }
+  },
+  {
+   "mu": "0.6178",
+   "axis_angle_degrees": "136.45202493998391718",
+   "symmetry_defect_max_abs": "1.65996e-63",
+   "N_squared_minus_M_max_abs": "6.63743e-60",
+   "D_N": "0.002720890015631892154972137",
+   "s_N": [
+    [
+     "-1.087387623402071539642438",
+     "0.0"
+    ],
+    [
+     "-1.139549774581177373706808",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.8175881564719946393028569",
+    "-0.7014263112519878339392197"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.8175881564719946393028569",
+    "-0.7014263112519878339392197"
+   ],
+   "pair_sum_identity_defect": "6.19461e-59",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=402 rejected=154 rhs_evaluations=334156",
+    "runtime_seconds": 14.528542210000523,
+    "raw_file": "results/gbs_raw_half_period/half_0p6178.csv",
+    "raw_sha256": "d494c4df2f7d8e443efd3e630865ea8ead1337b06e750072cc6a42a07bfdfabb"
+   }
+  },
+  {
+   "mu": "0.6179",
+   "axis_angle_degrees": "136.38967375695679861",
+   "symmetry_defect_max_abs": "3.92094e-63",
+   "N_squared_minus_M_max_abs": "7.27809e-60",
+   "D_N": "-0.003473416577120374777103026",
+   "s_N": [
+    [
+     "-1.110121403054150269116102",
+     "0.02946784933245203244647077"
+    ],
+    [
+     "-1.110121403054150269116102",
+     "-0.02946784933245203244647077"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.768498824625364939243354",
+    "-0.768498824625364939243354"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.768498824625364939243354",
+    "-0.768498824625364939243354"
+   ],
+   "pair_sum_identity_defect": "2.51688e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=402 rejected=156 rhs_evaluations=335358",
+    "runtime_seconds": 14.97566444900076,
+    "raw_file": "results/gbs_raw_half_period/half_0p6179.csv",
+    "raw_sha256": "e2af44a42881bbc203947f6a533125a95538f97d1801d5c0c678a87dbbbb5738"
+   }
+  },
+  {
+   "mu": "0.597",
+   "axis_angle_degrees": "147.76982167010071155",
+   "symmetry_defect_max_abs": "2.48318e-63",
+   "N_squared_minus_M_max_abs": "4.80383e-60",
+   "D_N": "-0.0286413109109883945689456",
+   "s_N": [
+    [
+     "-1.068810241052277133030739",
+     "0.0846187197241077303350834"
+    ],
+    [
+     "-1.068810241052277133030739",
+     "-0.0846187197241077303350834"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.8648049963495203473327569",
+    "-0.8648049963495203473327569"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.8648049963495203473327569",
+    "-0.8648049963495203473327569"
+   ],
+   "pair_sum_identity_defect": "1.21214e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=441 rejected=172 rhs_evaluations=368413",
+    "runtime_seconds": 16.41219381999872,
+    "raw_file": "results/gbs_raw_half_period/half_0p597.csv",
+    "raw_sha256": "7731cd59ca0f82dce483f55d1767ff5b4c9a326609820716c5bcd77e5cb5e688"
+   }
+  },
+  {
+   "mu": "0.605",
+   "axis_angle_degrees": "143.88252576099310069",
+   "symmetry_defect_max_abs": "1.18167e-63",
+   "N_squared_minus_M_max_abs": "1.47783e-60",
+   "D_N": "0.09720196413241977841930673",
+   "s_N": [
+    [
+     "-1.055112861003129244980329",
+     "0.0"
+    ],
+    [
+     "-1.366885156328451213235193",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.8867368505457912657520603",
+    "-0.1316249694089454882093667"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.8867368505457912657520603",
+    "-0.1316249694089454882093667"
+   ],
+   "pair_sum_identity_defect": "3.26554e-60",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=425 rejected=164 rhs_evaluations=353989",
+    "runtime_seconds": 15.101038307000636,
+    "raw_file": "results/gbs_raw_half_period/half_0p605.csv",
+    "raw_sha256": "6656243d91cd2570683f7b3bb2bfc92f13e04fa0bc4d168589f0e8421c5fd6d9"
+   }
+  },
+  {
+   "mu": "0.618",
+   "axis_angle_degrees": "136.3273289787878741",
+   "symmetry_defect_max_abs": "4.14242e-63",
+   "N_squared_minus_M_max_abs": "9.1765e-60",
+   "D_N": "-0.009841646571811779789606677",
+   "s_N": [
+    [
+     "-1.106721586670781790095375",
+     "0.04960253665845069407181472"
+    ],
+    [
+     "-1.106721586670781790095375",
+     "-0.04960253665845069407181472"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7776277412398601753089095",
+    "-0.7776277412398601753089095"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7776277412398601753089095",
+    "-0.7776277412398601753089095"
+   ],
+   "pair_sum_identity_defect": "1.68191e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=401 rejected=157 rhs_evaluations=335358",
+    "runtime_seconds": 14.73924624600113,
+    "raw_file": "results/gbs_raw_half_period/half_0p618.csv",
+    "raw_sha256": "9e03c479c380fd293560e6582fd538482162438757243d75b7aaa8aa83e26f95"
+   }
+  },
+  {
+   "mu": "0.59904378",
+   "axis_angle_degrees": "146.8281522031465495",
+   "symmetry_defect_max_abs": "2.96623e-63",
+   "N_squared_minus_M_max_abs": "5.56607e-60",
+   "D_N": "-6.351627901411106968211016e-8",
+   "s_N": [
+    [
+     "-1.113723563505825036113825",
+     "0.0001260121809728240812679411"
+    ],
+    [
+     "-1.113723563505825036113825",
+     "-0.0001260121809728240812679411"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7596198399709562613213233",
+    "-0.7596198399709562613213233"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7596198399709562613213233",
+    "-0.7596198399709562613213233"
+   ],
+   "pair_sum_identity_defect": "2.79538e-62",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=438 rejected=173 rhs_evaluations=367211",
+    "runtime_seconds": 16.270371904000058,
+    "raw_file": "results/gbs_raw_half_period/half_0p59904378.csv",
+    "raw_sha256": "ffba054bcebd9bc49cd891a011e5a245379f4f7f978071e2affa836f1c0b2bdd"
+   }
+  },
+  {
+   "mu": "0.59904379",
+   "axis_angle_degrees": "146.82814751399068529",
+   "symmetry_defect_max_abs": "2.9663e-63",
+   "N_squared_minus_M_max_abs": "5.56598e-60",
+   "D_N": "8.739320434230263478835213e-8",
+   "s_N": [
+    [
+     "-1.113575959448166828324374",
+     "0.0"
+    ],
+    [
+     "-1.113871582864597771146919",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7599485825390947075125397",
+    "-0.7592900968867155009702858"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7599485825390947075125397",
+    "-0.7592900968867155009702858"
+   ],
+   "pair_sum_identity_defect": "1.04741e-56",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=438 rejected=173 rhs_evaluations=367211",
+    "runtime_seconds": 16.125847340999826,
+    "raw_file": "results/gbs_raw_half_period/half_0p59904379.csv",
+    "raw_sha256": "498b21a0bb3e0a0d26b8be6e1cbbfb4b67c7c0c62ab3a26c6116e644697330ed"
+   }
+  },
+  {
+   "mu": "0.61784426",
+   "axis_angle_degrees": "136.42442775226908079",
+   "symmetry_defect_max_abs": "2.53883e-63",
+   "N_squared_minus_M_max_abs": "5.48706e-60",
+   "D_N": "0.0000005076722727024980790329475",
+   "s_N": [
+    [
+     "-1.111637389654151577300014",
+     "0.0"
+    ],
+    [
+     "-1.112349900898064610632457",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.764262313922903975772048",
+    "-0.7626776979720658395323749"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.764262313922903975772048",
+    "-0.7626776979720658395323749"
+   ],
+   "pair_sum_identity_defect": "2.41211e-57",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=402 rejected=154 rhs_evaluations=334156",
+    "runtime_seconds": 12.657288633999997,
+    "raw_file": "results/gbs_raw_half_period/half_0p61784426.csv",
+    "raw_sha256": "064aca46f341e4aeff948881d5aa7c2f59eae679aef2fb9cd4a0d8b738086ca8"
+   }
+  },
+  {
+   "mu": "0.61784428",
+   "axis_angle_degrees": "136.42441528195104264",
+   "symmetry_defect_max_abs": "2.53879e-63",
+   "N_squared_minus_M_max_abs": "5.48746e-60",
+   "D_N": "-0.000000729187752431160748897992",
+   "s_N": [
+    [
+     "-1.111992976419486221276927",
+     "0.0004269624551500871571974307"
+    ],
+    [
+     "-1.111992976419486221276927",
+     "-0.0004269624551500871571974307"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.7634718026906700684367687",
+    "-0.7634718026906700684367687"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.7634718026906700684367687",
+    "-0.7634718026906700684367687"
+   ],
+   "pair_sum_identity_defect": "2.03487e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=402 rejected=154 rhs_evaluations=334156",
+    "runtime_seconds": 11.823711144001209,
+    "raw_file": "results/gbs_raw_half_period/half_0p61784428.csv",
+    "raw_sha256": "3a6f1db0495582f8db31d61a21839f53919b55b49357c7f40f9ad19b8ac4fde8"
+   }
+  },
+  {
+   "mu": "0.5876435519022455",
+   "axis_angle_degrees": "151.6988379148339748",
+   "symmetry_defect_max_abs": "3.95863e-63",
+   "N_squared_minus_M_max_abs": "3.33118e-60",
+   "D_N": "-0.07679947301461135404449904",
+   "s_N": [
+    [
+     "-0.8169334401353328043182245",
+     "0.1385635892060134191121566"
+    ],
+    [
+     "-0.8169334401353328043182245",
+     "-0.1385635892060134191121566"
+    ]
+   ],
+   "s_M_saved": [
+    "-1.351819622642303451739742",
+    "-1.351819622642303451739742"
+   ],
+   "s_N_squared_minus_2": [
+    "-1.351819622642303451739742",
+    "-1.351819622642303451739742"
+   ],
+   "pair_sum_identity_defect": "1.61104e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=461 rejected=180 rhs_evaluations=385241",
+    "runtime_seconds": 13.358236983000097,
+    "raw_file": "results/gbs_raw_half_period/half_0p5876435519022455.csv",
+    "raw_sha256": "afd13a5d3fb5b0f2527b6cc08cd8f52ab275b807f41f53bbbe8857bd62bc6ca4"
+   }
+  },
+  {
+   "mu": "0.612356088827994835162485140041506525569967",
+   "axis_angle_degrees": "139.78397380583102754",
+   "symmetry_defect_max_abs": "7.32312e-63",
+   "N_squared_minus_M_max_abs": "1.71252e-59",
+   "D_N": "0.1564085589203431350837118",
+   "s_N": [
+    [
+     "-1.027270980442838603076746",
+     "0.0"
+    ],
+    [
+     "-1.422756200040667739298285",
+     "0.0"
+    ]
+   ],
+   "s_M_saved": [
+    "-0.9447143327400091082749341",
+    "0.02423520475416055645489045"
+   ],
+   "s_N_squared_minus_2": [
+    "-0.9447143327400091082749341",
+    "0.02423520475416055645489045"
+   ],
+   "pair_sum_identity_defect": "2.14986e-59",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=411 rejected=156 rhs_evaluations=340767",
+    "runtime_seconds": 11.886903230999451,
+    "raw_file": "results/gbs_raw_half_period/half_0p612356088827994835162485140041506525569967.csv",
+    "raw_sha256": "564c35115315ec793cf9e08dbaf3c0a59d72c2ad9720a189e9f3c1c86d57c8b0"
+   }
+  },
+  {
+   "mu": "0.630314929124448",
+   "axis_angle_degrees": "131.9425343967073627",
+   "symmetry_defect_max_abs": "7.98494e-63",
+   "N_squared_minus_M_max_abs": "3.27595e-59",
+   "D_N": "-3.176081755908017087254527",
+   "s_N": [
+    [
+     "-0.2099698930347288436858119",
+     "0.8910782451485415272323067"
+    ],
+    [
+     "-0.2099698930347288436858119",
+     "-0.8910782451485415272323067"
+    ]
+   ],
+   "s_M_saved": [
+    "-2.749933082995988799626978",
+    "-2.749933082995988799626978"
+   ],
+   "s_N_squared_minus_2": [
+    "-2.749933082995988799626978",
+    "-2.749933082995988799626978"
+   ],
+   "pair_sum_identity_defect": "2.60072e-61",
+   "half_period_integration": {
+    "integrator": "GBS extrapolation (tools/gbs_mpfr)",
+    "digits": 80,
+    "working_bits": "# GBS MPFR 4.2.1 digits=80 bits=333 stages=24 tol=1e-66 columns=12 sequence=2j smoothing=gragg",
+    "tolerance": "1e-66",
+    "stages": 24,
+    "columns": 12,
+    "stride": 1000000000,
+    "completion": "# success=1 steps=396 rejected=151 rhs_evaluations=328747",
+    "runtime_seconds": 11.619330653000361,
+    "raw_file": "results/gbs_raw_half_period/half_0p630314929124448.csv",
+    "raw_sha256": "7da83040a37bb3b3ebaff24534de96fbc792f2451e385fa4bdba97c0c8bcbe89"
+   }
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "empirically converged numerical sign brackets; not rigorous interval enclosures",
+  "boundaries": [
+    {
+      "name": "lower",
+      "bracket": [
+        "0.59904378",
+        "0.59904379"
+      ],
+      "width": "1E-8",
+      "endpoint_D": [
+        "-3.15137333346207624116785123589528927314704699149288047647948720798982823236136E-7",
+        "4.33603354389269238581245727007114264346808761466082868315340114999890547070409E-7"
+      ],
+      "endpoint_spectral_radius": [
+        "1.000151722796541365718317765774905919839785671550922967607262579393356890879812908558",
+        "1.000000000000000000000000000000000000000000000000000000000000013691091799576558604103"
+      ],
+      "precision_runs": [
+        65,
+        85
+      ],
+      "endpoint_D_changes": [
+        "2.8642679285871338851279201017176763864E-47",
+        "2.8654243842800797640114999890547070409E-47"
+      ],
+      "positive_imaginary_unit_modes_krein_signatures": [
+        -1,
+        1
+      ],
+      "stable_side_mass": "0.59904379",
+      "classification": "candidate spectral transition; opposite Krein signs and off-circle quartet observed",
+      "exact_collision_multiplicity": "unresolved; no integration at the exact zero of D"
+    },
+    {
+      "name": "upper",
+      "bracket": [
+        "0.61784426",
+        "0.61784428"
+      ],
+      "width": "2E-8",
+      "endpoint_D": [
+        "0.000002511007711650650608020445650689577711597007136184097610604150327161489857428303",
+        "-0.000003606645399769758955640903698880993401576549626715550690966121246118408573611265"
+      ],
+      "endpoint_spectral_radius": [
+        "1.000000000000000000000000000000000000000000000000000000000000069595454036967452774443",
+        "1.000513811376558217489414315827359318408819518548390903187290132317236227338553237088"
+      ],
+      "precision_runs": [
+        65,
+        85
+      ],
+      "endpoint_D_changes": [
+        "8.28186748074911261350327161489857428303E-46",
+        "8.28769017329102624378753881591426388735E-46"
+      ],
+      "positive_imaginary_unit_modes_krein_signatures": [
+        -1,
+        1
+      ],
+      "stable_side_mass": "0.61784426",
+      "classification": "candidate spectral transition; opposite Krein signs and off-circle quartet observed",
+      "exact_collision_multiplicity": "unresolved; no integration at the exact zero of D"
+    }
+  ],
+  "limitations": [
+    "No independent multiprecision implementation or interval-arithmetic proof.",
+    "No exact-transition algebraic/geometric multiplicity proof.",
+    "No nonlinear stability or novelty claim."
+  ]
+}

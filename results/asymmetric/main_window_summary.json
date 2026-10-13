@@ -1,0 +1,475 @@
+{
+ "status": "binary64 exploratory 2D scan; not multiprecision-verified",
+ "all_rows_complete": true,
+ "centre_continuation_failure": null,
+ "incomplete_rows": [],
+ "closing_sign_changes_not_interpreted_due_to_incomplete_rows": [],
+ "max_abs_theta": 3.8510984681453e-11,
+ "max_closure": 1.9972462032249458e-11,
+ "curves": [
+  {
+   "delta": 0.0,
+   "complete": true,
+   "mu_lower": 0.5990437842371765,
+   "mu_upper": 0.6178442681652289,
+   "all_crossings": [
+    [
+     0.5990437842371765,
+     "above"
+    ],
+    [
+     0.6178442681652289,
+     "below"
+    ]
+   ],
+   "max_D": 0.9686048299064739,
+   "stable_points": 37,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0005,
+   "complete": true,
+   "mu_lower": 0.5990753146952911,
+   "mu_upper": 0.6178344922491802,
+   "all_crossings": [
+    [
+     0.5990753146952911,
+     "above"
+    ],
+    [
+     0.6178344922491802,
+     "below"
+    ]
+   ],
+   "max_D": 0.9653459558399373,
+   "stable_points": 37,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.001,
+   "complete": true,
+   "mu_lower": 0.5991696437642682,
+   "mu_upper": 0.6178050329702572,
+   "all_crossings": [
+    [
+     0.5991696437642682,
+     "above"
+    ],
+    [
+     0.6178050329702572,
+     "below"
+    ]
+   ],
+   "max_D": 0.9555693699212181,
+   "stable_points": 37,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0015,
+   "complete": true,
+   "mu_lower": 0.5993260240133497,
+   "mu_upper": 0.6177554884728826,
+   "all_crossings": [
+    [
+     0.5993260240133497,
+     "above"
+    ],
+    [
+     0.6177554884728826,
+     "below"
+    ]
+   ],
+   "max_D": 0.9392752451364499,
+   "stable_points": 37,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.002,
+   "complete": true,
+   "mu_lower": 0.5995433360614226,
+   "mu_upper": 0.617685164141175,
+   "all_crossings": [
+    [
+     0.5995433360614226,
+     "above"
+    ],
+    [
+     0.617685164141175,
+     "below"
+    ]
+   ],
+   "max_D": 0.9164638310155458,
+   "stable_points": 36,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0025,
+   "complete": true,
+   "mu_lower": 0.5998202626767674,
+   "mu_upper": 0.6175930317193428,
+   "all_crossings": [
+    [
+     0.5998202626767674,
+     "above"
+    ],
+    [
+     0.6175930317193428,
+     "below"
+    ]
+   ],
+   "max_D": 0.8871355261321133,
+   "stable_points": 36,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.003,
+   "complete": true,
+   "mu_lower": 0.600155508694815,
+   "mu_upper": 0.6174776649164522,
+   "all_crossings": [
+    [
+     0.600155508694815,
+     "above"
+    ],
+    [
+     0.6174776649164522,
+     "below"
+    ]
+   ],
+   "max_D": 0.85129080252772,
+   "stable_points": 34,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0035,
+   "complete": true,
+   "mu_lower": 0.600548055496665,
+   "mu_upper": 0.6173371413837335,
+   "all_crossings": [
+    [
+     0.600548055496665,
+     "above"
+    ],
+    [
+     0.6173371413837335,
+     "below"
+    ]
+   ],
+   "max_D": 0.8089302897591388,
+   "stable_points": 33,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.004,
+   "complete": true,
+   "mu_lower": 0.6009974503365536,
+   "mu_upper": 0.6171688946706817,
+   "all_crossings": [
+    [
+     0.6009974503365536,
+     "above"
+    ],
+    [
+     0.6171688946706817,
+     "below"
+    ]
+   ],
+   "max_D": 0.7600547040998199,
+   "stable_points": 33,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0045,
+   "complete": true,
+   "mu_lower": 0.6015041500397922,
+   "mu_upper": 0.6169694869430782,
+   "all_crossings": [
+    [
+     0.6015041500397922,
+     "above"
+    ],
+    [
+     0.6169694869430782,
+     "below"
+    ]
+   ],
+   "max_D": 0.7046649093096814,
+   "stable_points": 30,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.005,
+   "complete": true,
+   "mu_lower": 0.6020699676974354,
+   "mu_upper": 0.6167342487295342,
+   "all_crossings": [
+    [
+     0.6020699676974354,
+     "above"
+    ],
+    [
+     0.6167342487295342,
+     "below"
+    ]
+   ],
+   "max_D": 0.6427619024642774,
+   "stable_points": 29,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0055,
+   "complete": true,
+   "mu_lower": 0.6026987291126642,
+   "mu_upper": 0.6164566821188842,
+   "all_crossings": [
+    [
+     0.6026987291126642,
+     "above"
+    ],
+    [
+     0.6164566821188842,
+     "below"
+    ]
+   ],
+   "max_D": 0.5743468289482059,
+   "stable_points": 27,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.006,
+   "complete": true,
+   "mu_lower": 0.6033973586052548,
+   "mu_upper": 0.616127408271739,
+   "all_crossings": [
+    [
+     0.6033973586052548,
+     "above"
+    ],
+    [
+     0.616127408271739,
+     "below"
+    ]
+   ],
+   "max_D": 0.4994209712059925,
+   "stable_points": 26,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0065,
+   "complete": true,
+   "mu_lower": 0.6041779120114313,
+   "mu_upper": 0.6157321496477739,
+   "all_crossings": [
+    [
+     0.6041779120114313,
+     "above"
+    ],
+    [
+     0.6157321496477739,
+     "below"
+    ]
+   ],
+   "max_D": 0.4179857913821796,
+   "stable_points": 23,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.007,
+   "complete": true,
+   "mu_lower": 0.6050619262786897,
+   "mu_upper": 0.6152473805291163,
+   "all_crossings": [
+    [
+     0.6050619262786897,
+     "above"
+    ],
+    [
+     0.6152473805291163,
+     "below"
+    ]
+   ],
+   "max_D": 0.33004290186087537,
+   "stable_points": 20,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0075,
+   "complete": true,
+   "mu_lower": 0.6060915940652036,
+   "mu_upper": 0.6146291422468918,
+   "all_crossings": [
+    [
+     0.6060915940652036,
+     "above"
+    ],
+    [
+     0.6146291422468918,
+     "below"
+    ]
+   ],
+   "max_D": 0.23559411787660633,
+   "stable_points": 17,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.008,
+   "complete": true,
+   "mu_lower": 0.6073687132791555,
+   "mu_upper": 0.6137740776326165,
+   "all_crossings": [
+    [
+     0.6073687132791555,
+     "above"
+    ],
+    [
+     0.6137740776326165,
+     "below"
+    ]
+   ],
+   "max_D": 0.1346414319099788,
+   "stable_points": 13,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0085,
+   "complete": true,
+   "mu_lower": 0.6093523393163148,
+   "mu_upper": 0.6122217570705316,
+   "all_crossings": [
+    [
+     0.6093523393163148,
+     "above"
+    ],
+    [
+     0.6122217570705316,
+     "below"
+    ]
+   ],
+   "max_D": 0.02718706988965347,
+   "stable_points": 6,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.009,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.08676656209056566,
+   "stable_points": 0,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0095,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.20721679062466092,
+   "stable_points": 0,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.01,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.3341607184819846,
+   "stable_points": 0,
+   "mu_of_max_D": 0.611
+  },
+  {
+   "delta": 0.0105,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.46723225917410316,
+   "stable_points": 0,
+   "mu_of_max_D": 0.6105
+  },
+  {
+   "delta": 0.011,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.6066945013428217,
+   "stable_points": 0,
+   "mu_of_max_D": 0.6105
+  },
+  {
+   "delta": 0.0115,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.7526210111977508,
+   "stable_points": 0,
+   "mu_of_max_D": 0.6105
+  },
+  {
+   "delta": 0.012,
+   "complete": true,
+   "mu_lower": null,
+   "mu_upper": null,
+   "all_crossings": [],
+   "max_D": -0.9050080562277356,
+   "stable_points": 0,
+   "mu_of_max_D": 0.6105
+  }
+ ],
+ "quadratic_fits_mu_star_vs_delta2": {
+  "mu_lower": {
+   "symmetric_value": 0.5990437842088998,
+   "rows_used": 13,
+   "c2": 123.33532887024234,
+   "c4": -75071.81922289376,
+   "max_fit_residual": 1.0795634739121582e-05,
+   "fit_range": "delta <= 0.006",
+   "difference_quotients": [
+    126.12194556504974,
+    125.85955536836835
+   ],
+   "c2_small_delta_richardson": 126.20940896394355,
+   "delta0_scan_value": 0.5990437842371765,
+   "delta0_scan_error": 2.8276714303387962e-11
+  },
+  "mu_upper": {
+   "symmetric_value": 0.6178442682090631,
+   "rows_used": 13,
+   "c2": -37.92635122429771,
+   "c4": -267035.0794854219,
+   "max_fit_residual": 5.433830236353408e-06,
+   "fit_range": "delta <= 0.006",
+   "difference_quotients": [
+    -39.10383953176222,
+    -39.235238805890305
+   ],
+   "c2_small_delta_richardson": -39.060039773719524,
+   "delta0_scan_value": 0.6178442681652289,
+   "delta0_scan_error": -4.383426954746028e-11
+  }
+ },
+ "window_closing": {
+  "delta_between": [
+   0.0085,
+   0.009
+  ],
+  "delta_linear_estimate": 0.008619290054284417,
+  "mu_near": 0.611
+ },
+ "mirror_symmetry_check": {
+  "delta": -0.004,
+  "mirror_crossings": [
+   0.6009974503091495,
+   0.6171688946953161
+  ],
+  "positive_delta_crossings": [
+   0.6009974503365536,
+   0.6171688946706817
+  ],
+  "max_difference": 2.740407900603259e-11
+ }
+}

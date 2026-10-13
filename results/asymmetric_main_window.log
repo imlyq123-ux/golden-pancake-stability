@@ -1,0 +1,51 @@
+[delta-continuation] mu=0.613 delta=0.00000 D=+0.900673 theta=+0.0e+00 a=+0.0000e+00
+[delta-continuation] mu=0.613 delta=0.00050 D=+0.897407 theta=-4.3e-12 a=+1.1029e-03
+[delta-continuation] mu=0.613 delta=0.00100 D=+0.887608 theta=-3.4e-12 a=+2.2058e-03
+[delta-continuation] mu=0.613 delta=0.00150 D=+0.871276 theta=+5.4e-12 a=+3.3085e-03
+[delta-continuation] mu=0.613 delta=0.00200 D=+0.848413 theta=+9.9e-12 a=+4.4111e-03
+[delta-continuation] mu=0.613 delta=0.00250 D=+0.819018 theta=+5.7e-12 a=+5.5135e-03
+[delta-continuation] mu=0.613 delta=0.00300 D=+0.783092 theta=+4.4e-12 a=+6.6157e-03
+[delta-continuation] mu=0.613 delta=0.00350 D=+0.740637 theta=-3.1e-11 a=+7.7175e-03
+[delta-continuation] mu=0.613 delta=0.00400 D=+0.691653 theta=-6.8e-12 a=+8.8191e-03
+[delta-continuation] mu=0.613 delta=0.00450 D=+0.636142 theta=-1.5e-11 a=+9.9202e-03
+[delta-continuation] mu=0.613 delta=0.00500 D=+0.574105 theta=+1.0e-11 a=+1.1021e-02
+[delta-continuation] mu=0.613 delta=0.00550 D=+0.505544 theta=-1.6e-11 a=+1.2121e-02
+[delta-continuation] mu=0.613 delta=0.00600 D=+0.430461 theta=-9.6e-12 a=+1.3221e-02
+[delta-continuation] mu=0.613 delta=0.00650 D=+0.348858 theta=-5.6e-13 a=+1.4320e-02
+[delta-continuation] mu=0.613 delta=0.00700 D=+0.260737 theta=+2.5e-12 a=+1.5418e-02
+[delta-continuation] mu=0.613 delta=0.00750 D=+0.166102 theta=+3.9e-12 a=+1.6516e-02
+[delta-continuation] mu=0.613 delta=0.00800 D=+0.064954 theta=+4.7e-12 a=+1.7613e-02
+[delta-continuation] mu=0.613 delta=0.00850 D=-0.042702 theta=+1.0e-11 a=+1.8709e-02
+[delta-continuation] mu=0.613 delta=0.00900 D=-0.156863 theta=-1.2e-11 a=+1.9805e-02
+[delta-continuation] mu=0.613 delta=0.00950 D=-0.277525 theta=+9.9e-13 a=+2.0899e-02
+[delta-continuation] mu=0.613 delta=0.01000 D=-0.404685 theta=+2.5e-12 a=+2.1993e-02
+[delta-continuation] mu=0.613 delta=0.01050 D=-0.538338 theta=-9.4e-12 a=+2.3085e-02
+[delta-continuation] mu=0.613 delta=0.01100 D=-0.678478 theta=+1.0e-11 a=+2.4177e-02
+[delta-continuation] mu=0.613 delta=0.01150 D=-0.825101 theta=-4.9e-12 a=+2.5268e-02
+[delta-continuation] mu=0.613 delta=0.01200 D=-0.978201 theta=-1.7e-12 a=+2.6357e-02
+delta=0.00050: 61/61 grid points (complete), crossings at [0.5990753147, 0.6178344922], max D=+0.9653
+delta=0.00000: 61/61 grid points (complete), crossings at [0.5990437842, 0.6178442682], max D=+0.9686
+delta=0.00300: 61/61 grid points (complete), crossings at [0.6001555087, 0.6174776649], max D=+0.8513
+delta=0.00350: 61/61 grid points (complete), crossings at [0.6005480555, 0.6173371414], max D=+0.8089
+delta=0.00150: 61/61 grid points (complete), crossings at [0.599326024, 0.6177554885], max D=+0.9393
+delta=0.00200: 61/61 grid points (complete), crossings at [0.5995433361, 0.6176851641], max D=+0.9165
+delta=0.00250: 61/61 grid points (complete), crossings at [0.5998202627, 0.6175930317], max D=+0.8871
+delta=0.00100: 61/61 grid points (complete), crossings at [0.5991696438, 0.617805033], max D=+0.9556
+delta=0.00400: 61/61 grid points (complete), crossings at [0.6009974503, 0.6171688947], max D=+0.7601
+delta=0.00550: 61/61 grid points (complete), crossings at [0.6026987291, 0.6164566821], max D=+0.5743
+delta=0.00450: 61/61 grid points (complete), crossings at [0.60150415, 0.6169694869], max D=+0.7047
+delta=0.00600: 61/61 grid points (complete), crossings at [0.6033973586, 0.6161274083], max D=+0.4994
+delta=0.00500: 61/61 grid points (complete), crossings at [0.6020699677, 0.6167342487], max D=+0.6428
+delta=0.00650: 61/61 grid points (complete), crossings at [0.604177912, 0.6157321496], max D=+0.4180
+delta=0.00750: 61/61 grid points (complete), crossings at [0.6060915941, 0.6146291422], max D=+0.2356
+delta=0.00700: 61/61 grid points (complete), crossings at [0.6050619263, 0.6152473805], max D=+0.3300
+delta=0.00950: 61/61 grid points (complete), crossings at [], max D=-0.2072
+delta=0.00900: 61/61 grid points (complete), crossings at [], max D=-0.0868
+delta=0.01000: 61/61 grid points (complete), crossings at [], max D=-0.3342
+delta=0.01050: 61/61 grid points (complete), crossings at [], max D=-0.4672
+delta=0.01100: 61/61 grid points (complete), crossings at [], max D=-0.6067
+delta=0.00800: 61/61 grid points (complete), crossings at [0.6073687133, 0.6137740776], max D=+0.1346
+delta=0.00850: 61/61 grid points (complete), crossings at [0.6093523393, 0.6122217571], max D=+0.0272
+delta=0.01150: 61/61 grid points (complete), crossings at [], max D=-0.7526
+delta=0.01200: 61/61 grid points (complete), crossings at [], max D=-0.9050
+delta=-0.00400: 61/61 grid points (complete), crossings at [0.6009974503, 0.6171688947], max D=+0.7601

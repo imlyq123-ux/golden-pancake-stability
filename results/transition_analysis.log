@@ -1,0 +1,359 @@
+ta_lower_unstable4 Newton 0: residual 6.7677e-6
+ta_lower_unstable6 Newton 0: residual 6.7587e-10
+ta_lower_stable8 Newton 0: residual 2.8568e-14
+ta_lower_stable4 Newton 0: residual 6.8065e-6
+ta_lower_stable6 Newton 0: residual 6.7483e-10
+ta_lower_starNone Newton 0: residual 1.3466e-63
+ta_lower_unstable6 Newton 1: residual 7.057e-20
+ta_lower_unstable4 Newton 1: residual 7.0881e-12
+ta_lower_stable4 Newton 1: residual 7.1444e-12
+ta_lower_stable8 Newton 1: residual 1.2608e-28
+ta_lower_stable6 Newton 1: residual 7.0352e-20
+ta_lower_unstable6 Newton 2: residual 1.3629e-38
+ta_lower_stable4 Newton 2: residual 1.3951e-22
+ta_lower_stable8 Newton 2: residual 4.35e-56
+ta_lower_stable6 Newton 2: residual 1.3544e-38
+ta_lower_unstable4 Newton 2: residual 1.3768e-22
+ta_lower_unstable6 Newton 3: residual 1.2315e-63
+ta_lower_stable4 Newton 3: residual 1.0784e-44
+ta_lower_stable6 Newton 3: residual 3.7628e-64
+ta_lower_unstable4 Newton 3: residual 1.057e-44
+ta_lower_starNone: closure 6.3768995e-63 D -4.98265229751e-64 rho 1.0
+ta_lower_starNone: split=3.9171e-30 rho-1=4.295e-37 kappa=['2.78e-31', '-2.78e-31']
+ta_lower_stable4 Newton 4: residual 1.7447e-63
+ta_lower_unstable4 Newton 4: residual 4.6071e-64
+ta_lower_unstable8 Newton 0: residual 3.9307e-14
+ta_lower_stable8: closure 4.3500104e-56 D 7.48741114511e-7 rho 1.0
+ta_lower_stable8: split=0.0004677 rho-1=3.7115e-63 kappa=['3.33e-5', '-3.309e-5']
+ta_lower_unstable8 Newton 1: residual 2.3868e-28
+ta_lower_unstable6: closure 6.0657616e-63 D -7.48689906815e-5 rho 1.00234115972989
+ta_lower_stable10 Newton 0: residual 6.7874e-18
+ta_lower_stable6: closure 5.8772825e-63 D 7.48791305239e-5 rho 1.0
+ta_lower_unstable6: split=0.0046769 rho-1=0.0023412 kappa=['5.066e-65', '-4.988e-65']
+ta_lower_unstable8 Newton 2: residual 1.559e-55
+ta_lower_stable6: split=0.0046771 rho-1=3.453e-64 kappa=['0.0003428', '-0.0003215']
+ta_lower_stable4: closure 1.5033177e-62 D 0.00753795431708 rho 1.0
+ta_lower_unstable4: closure 1.0652737e-62 D -0.00743655944716 rho 1.02360233283079
+ta_lower_stable10 Newton 1: residual 7.1171e-36
+ta_lower_stable4: split=0.046878 rho-1=3.1108e-65 kappa=['0.004631', '-0.002432']
+ta_lower_unstable10 Newton 0: residual 6.7873e-18
+ta_lower_unstable8 Newton 3: residual 1.3467e-63
+ta_lower_unstable4: split=0.04666 rho-1=0.023602 kappa=['5.401e-66', '-5.057e-66']
+ta_lower_stable12 Newton 0: residual 6.7874e-22
+ta_lower_unstable12 Newton 0: residual 6.7762e-22
+ta_lower_stable10 Newton 2: residual 1.3466e-63
+ta_lower_unstable10 Newton 1: residual 7.1169e-36
+ta_lower_stable15 Newton 0: residual 6.7874e-28
+ta_lower_stable12 Newton 1: residual 7.1171e-44
+ta_lower_unstable10 Newton 2: residual 1.3466e-63
+ta_lower_unstable12 Newton 1: residual 7.0936e-44
+ta_lower_stable12 Newton 2: residual 1.3466e-63
+ta_lower_stable15 Newton 1: residual 7.1171e-56
+ta_lower_unstable12 Newton 2: residual 1.3466e-63
+ta_lower_unstable8: closure 6.3761600e-63 D -7.48740100527e-7 rho 1.000233875279
+ta_lower_unstable8: split=0.0004677 rho-1=0.00023388 kappa=['5.213e-64', '-5.205e-64']
+ta_lower_stable10: closure 6.3769069e-63 D 7.48740612589e-9 rho 1.0
+ta_lower_stable10: split=4.677e-5 rho-1=3.5969e-62 kappa=['3.321e-6', '-3.319e-6']
+ta_lower_unstable15 Newton 0: residual 4.4148e-28
+ta_lower_unstable10: closure 6.3768888e-63 D -7.48740602449e-9 rho 1.00002338507246
+ta_lower_stable20 Newton 0: residual 6.7874e-38
+ta_lower_unstable10: split=4.677e-5 rho-1=2.3385e-5 kappa=['5.118e-63', '-5.118e-63']
+ta_lower_stable12: closure 6.3768995e-63 D 7.4874060757e-11 rho 1.0
+ta_lower_unstable15 Newton 1: residual 3.011e-56
+ta_lower_stable15: closure 7.1170898e-56 D 7.48740607519e-14 rho 1.0
+ta_lower_stable12: split=4.677e-6 rho-1=3.5958e-61 kappa=['3.32e-7', '-3.32e-7']
+ta_lower_stable15: split=1.479e-7 rho-1=1.1368e-59 kappa=['1.05e-8', '-1.05e-8']
+ta_lower_unstable20 Newton 0: residual 6.3482e-38
+ta_lower_stable20 Newton 1: residual 1.3466e-63
+ta_lower_unstable12: closure 6.3768994e-63 D -7.48740607469e-11 rho 1.00000233848264
+ta_lower_stable25 Newton 0: residual 6.7874e-48
+ta_lower_unstable25 Newton 0: residual 6.7874e-48
+ta_lower_unstable12: split=4.677e-6 rho-1=2.3385e-6 kappa=['5.104e-62', '-5.104e-62']
+ta_lower_unstable20 Newton 1: residual 1.3466e-63
+ta_lower_stable25 Newton 1: residual 1.3466e-63
+ta_lower_unstable25 Newton 1: residual 1.3466e-63
+ta_lower_stable30 Newton 0: residual 6.787e-58
+ta_lower_unstable15: closure 3.0110277e-56 D -7.48740607519e-14 rho 1.00000007394923
+ta_lower_unstable15: split=1.479e-7 rho-1=7.3949e-8 kappa=['1.615e-60', '-1.615e-60']
+ta_lower_stable20: closure 6.3768995e-63 D 7.48740607519e-19 rho 1.0
+ta_lower_unstable30 Newton 0: residual 1.3466e-63
+ta_lower_stable20: split=4.677e-10 rho-1=3.5977e-57 kappa=['3.32e-11', '-3.32e-11']
+ta_lower_unstable20: closure 6.3768994e-63 D -7.48740607519e-19 rho 1.00000000023385
+ta_lower_stable25: closure 6.3768995e-63 D 7.48740607519e-24 rho 1.0
+ta_lower_unstable25: closure 6.3768929e-63 D -7.48740607519e-24 rho 1.00000000000074
+ta_lower_unstable20: split=4.677e-10 rho-1=2.3385e-10 kappa=['5.103e-58', '-5.103e-58']
+ta_lower_stable35 Newton 0: residual 1.0467e-60
+ta_lower_stable30: closure 6.7869545e-58 D 7.48740607519e-29 rho 1.0
+ta_lower_stable25: split=1.479e-12 rho-1=1.1373e-54 kappa=['1.05e-13', '-1.05e-13']
+ta_lower_unstable25: split=1.479e-12 rho-1=7.3949e-13 kappa=['1.623e-55', '-1.623e-55']
+ta_lower_stable30: split=4.677e-15 rho-1=3.5949e-52 kappa=['3.32e-16', '-3.32e-16']
+ta_upper_starNone Newton 0: residual 6.272e-64
+ta_lower_unstable35 Newton 0: residual 1.079e-60
+ta_lower_stable40 Newton 0: residual 1.3471e-63
+ta_lower_unstable40 Newton 0: residual 1.3462e-63
+ta_lower_unstable30: closure 6.3768994e-63 D -7.48740607519e-29 rho 1.0
+ta_lower_unstable30: split=4.677e-15 rho-1=2.3385e-15 kappa=['5.102e-53', '-5.102e-53']
+ta_upper_stable4 Newton 0: residual 1.3667e-5
+ta_lower_stable35: closure 1.0470048e-60 D 7.48740607519e-34 rho 1.0
+ta_lower_stable35: split=1.479e-17 rho-1=1.137e-49 kappa=['1.05e-18', '-1.05e-18']
+ta_upper_starNone: closure 2.1720888e-62 D 9.20091363125e-63 rho 1.0
+ta_upper_starNone: split=3.1969e-30 rho-1=1.0456e-36 kappa=['-2.861e-32', '2.861e-32']
+ta_upper_stable4 Newton 1: residual 2.732e-11
+ta_lower_unstable40: closure 6.3744425e-63 D -7.48740607519e-39 rho 1.0
+ta_lower_unstable35: closure 1.0786310e-60 D -7.48740607519e-34 rho 1.0
+ta_lower_unstable40: split=4.677e-20 rho-1=2.3385e-20 kappa=['5.105e-48', '-5.105e-48']
+ta_lower_unstable35: split=1.479e-17 rho-1=7.3949e-18 kappa=['1.614e-50', '-1.614e-50']
+ta_lower_stable40: closure 6.3794523e-63 D 7.48740607519e-39 rho 1.0
+ta_upper_unstable4 Newton 0: residual 1.3605e-5
+ta_lower_stable40: split=4.677e-20 rho-1=3.5934e-47 kappa=['3.32e-21', '-3.32e-21']
+ta_upper_stable6 Newton 0: residual 1.3526e-9
+ta_upper_stable4 Newton 2: residual 5.508e-21
+ta_upper_unstable6 Newton 0: residual 1.3477e-9
+ta_upper_stable8 Newton 0: residual 2.4425e-14
+ta_upper_unstable8 Newton 0: residual 2.4425e-14
+ta_upper_unstable4 Newton 1: residual 2.7669e-11
+ta_upper_stable6 Newton 1: residual 2.7046e-19
+ta_upper_stable4 Newton 3: residual 2.1553e-42
+ta_upper_stable8 Newton 1: residual 8.8195e-29
+ta_upper_unstable6 Newton 1: residual 2.6854e-19
+ta_upper_unstable8 Newton 1: residual 8.8195e-29
+ta_upper_unstable4 Newton 2: residual 5.5036e-21
+ta_upper_stable6 Newton 2: residual 5.3298e-37
+ta_upper_stable4 Newton 4: residual 6.6467e-64
+ta_upper_unstable6 Newton 2: residual 5.2532e-37
+ta_upper_stable8 Newton 2: residual 5.6669e-56
+ta_upper_unstable8 Newton 2: residual 5.6669e-56
+ta_upper_unstable4 Newton 3: residual 2.2792e-42
+ta_upper_stable6 Newton 3: residual 6.3139e-64
+ta_upper_unstable6 Newton 3: residual 5.2926e-64
+ta_upper_unstable4 Newton 4: residual 9.8518e-64
+ta_upper_stable4: closure 2.3867114e-62 D 0.0303465125523 rho 1.0
+ta_upper_stable4: split=0.094069 rho-1=1.9634e-65 kappa=['0.000986', '-0.000725']
+ta_upper_stable8: closure 5.6669070e-56 D 3.05882328176e-6 rho 1.0
+ta_upper_unstable8: closure 5.6669286e-56 D -3.05882810282e-6 rho 1.00047317380853
+ta_upper_stable8: split=0.00094612 rho-1=3.5068e-63 kappa=['8.479e-6', '-8.453e-6']
+ta_upper_unstable8: split=0.00094612 rho-1=0.00047317 kappa=['-6.423e-65', '6.42e-65']
+ta_upper_stable6: closure 2.1728298e-62 D 0.000305858463266 rho 1.0
+ta_upper_stable6: split=0.0094607 rho-1=3.414e-64 kappa=['8.597e-5', '-8.337e-5']
+ta_upper_stable10 Newton 0: residual 1.3637e-17
+ta_upper_unstable6: closure 2.2486955e-62 D -0.000305906673776 rho 1.0047420793452
+ta_upper_unstable10 Newton 0: residual 1.3638e-17
+ta_upper_stable12 Newton 0: residual 1.3534e-21
+ta_upper_unstable6: split=0.0094618 rho-1=0.0047421 kappa=['-6.628e-66', '6.596e-66']
+ta_upper_unstable4: closure 2.6915116e-62 D -0.0308285853805 rho 1.04871038391178
+ta_upper_unstable4: split=0.095158 rho-1=0.04871 kappa=['-5.641e-67', '5.402e-67']
+ta_upper_unstable12 Newton 0: residual 1.3638e-21
+ta_upper_stable10 Newton 1: residual 2.7493e-35
+ta_upper_stable12 Newton 1: residual 2.7079e-43
+ta_upper_unstable10 Newton 1: residual 2.7497e-35
+ta_upper_stable15 Newton 0: residual 1.3638e-27
+ta_upper_unstable15 Newton 0: residual 1.3638e-27
+ta_upper_unstable12 Newton 1: residual 2.7497e-43
+ta_upper_stable10 Newton 2: residual 6.272e-64
+ta_upper_unstable10 Newton 2: residual 6.272e-64
+ta_upper_stable12 Newton 2: residual 6.272e-64
+ta_upper_stable15 Newton 1: residual 2.7497e-55
+ta_upper_unstable15 Newton 1: residual 2.7497e-55
+ta_upper_unstable12 Newton 2: residual 6.272e-64
+ta_upper_stable15 Newton 2: residual 6.272e-64
+ta_upper_unstable15 Newton 2: residual 6.272e-64
+ta_upper_stable10: closure 2.1720979e-62 D 3.05882566819e-8 rho 1.0
+ta_upper_stable10: split=9.4612e-5 rho-1=3.3681e-62 kappa=['8.467e-7', '-8.465e-7']
+ta_upper_stable12: closure 2.1720846e-62 D 3.05882569205e-10 rho 1.0
+ta_upper_stable12: split=9.4612e-6 rho-1=3.5001e-61 kappa=['8.466e-8', '-8.466e-8']
+ta_upper_unstable10: closure 2.1720871e-62 D -3.0588257164e-8 rho 1.00004730728345
+ta_upper_unstable10: split=9.4612e-5 rho-1=4.7307e-5 kappa=['-6.325e-64', '6.325e-64']
+ta_upper_unstable12: closure 2.1720848e-62 D -3.05882569253e-10 rho 1.00000473062761
+ta_upper_unstable12: split=9.4612e-6 rho-1=4.7306e-6 kappa=['-6.279e-63', '6.279e-63']
+ta_upper_stable20 Newton 0: residual 3.9718e-38
+ta_upper_unstable20 Newton 0: residual 1.3638e-37
+ta_upper_stable15: closure 2.1720953e-62 D 3.05882569229e-13 rho 1.0
+ta_upper_stable25 Newton 0: residual 1.3638e-47
+ta_upper_stable15: split=2.9919e-7 rho-1=1.1328e-59 kappa=['2.677e-9', '-2.677e-9']
+ta_upper_unstable15: closure 2.1720965e-62 D -3.05882569229e-13 rho 1.00000014959524
+ta_upper_unstable15: split=2.9919e-7 rho-1=1.496e-7 kappa=['-1.985e-61', '1.985e-61']
+ta_upper_unstable25 Newton 0: residual 1.3638e-47
+ta_upper_stable20 Newton 1: residual 6.272e-64
+ta_upper_unstable20 Newton 1: residual 6.272e-64
+ta_upper_stable25 Newton 1: residual 6.272e-64
+ta_upper_stable30 Newton 0: residual 1.2722e-57
+ta_upper_unstable30 Newton 0: residual 1.3578e-57
+ta_upper_unstable25 Newton 1: residual 6.272e-64
+ta_upper_stable20: closure 2.1720950e-62 D 3.05882569229e-18 rho 1.0
+ta_upper_stable20: split=9.4612e-10 rho-1=3.5855e-57 kappa=['8.466e-12', '-8.466e-12']
+ta_upper_unstable20: closure 2.1720973e-62 D -3.05882569229e-18 rho 1.00000000047306
+ta_upper_stable25: closure 2.1720847e-62 D 3.05882569229e-23 rho 1.0
+ta_upper_unstable20: split=9.4612e-10 rho-1=4.7306e-10 kappa=['-6.036e-59', '6.036e-59']
+ta_upper_stable30: closure 1.2721731e-57 D 3.05882569229e-28 rho 1.0
+ta_upper_stable25: split=2.9919e-12 rho-1=1.1087e-54 kappa=['2.677e-14', '-2.677e-14']
+ta_upper_stable30: split=9.4612e-15 rho-1=3.3953e-52 kappa=['8.466e-17', '-8.466e-17']
+ta_upper_unstable30: closure 1.3578131e-57 D -3.05882569229e-28 rho 1.0
+ta_upper_unstable30: split=9.4612e-15 rho-1=4.7306e-15 kappa=['-6.293e-54', '6.293e-54']
+ta_upper_unstable25: closure 2.1720858e-62 D -3.05882569229e-23 rho 1.0000000000015
+ta_upper_unstable25: split=2.9919e-12 rho-1=1.496e-12 kappa=['-1.988e-56', '1.988e-56']
+ta_upper_stable35 Newton 0: residual 9.0403e-64
+ta_upper_unstable35 Newton 0: residual 9.7218e-64
+ta_upper_stable40 Newton 0: residual 6.272e-64
+ta_upper_unstable40 Newton 0: residual 6.272e-64
+ta_upper_stable35: closure 2.2625180e-62 D 3.05882569229e-33 rho 1.0
+ta_upper_stable35: split=2.9919e-17 rho-1=1.1349e-49 kappa=['2.677e-19', '-2.677e-19']
+ta_upper_unstable35: closure 2.0856493e-62 D -3.05882569229e-33 rho 1.0
+ta_upper_unstable35: split=2.9919e-17 rho-1=1.496e-17 kappa=['-1.98e-51', '1.98e-51']
+ta_upper_stable40: closure 2.1720969e-62 D 3.05882569229e-38 rho 1.0
+ta_upper_unstable40: closure 2.1721079e-62 D -3.05882569229e-38 rho 1.0
+ta_upper_stable40: split=9.4612e-20 rho-1=3.5732e-47 kappa=['8.466e-22', '-8.466e-22']
+ta_upper_unstable40: split=9.4612e-20 rho-1=4.7306e-20 kappa=['-6.341e-49', '6.341e-49']
+{
+ "lower": {
+  "mu_star": "0.5990437842088998512207288604620684192754137256617804257443479744810273",
+  "lambda_c_estimate": [
+   "-0.37980981470866591111312107304297954279777789486260284944087346066349324852323200",
+   "0.92506459485322908326213740187638920434038367357823443863279040350279492771359251"
+  ],
+  "stable_direction": 1,
+  "loglog_slope_stable_split": 0.5000097648576037,
+  "loglog_slope_unstable_rho_minus_1": 0.5000433982741822,
+  "loglog_slope_krein_form": 0.5015249590630266,
+  "loglog_slope_one_minus_overlap": 1.0001445284372796,
+  "stable_side_krein_sign_pairs": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ]
+  ],
+  "singular_values_at_mu_star": [
+   "2.949069842e-61",
+   "0.02025957636",
+   "0.1668499331",
+   "0.2988186147",
+   "0.3003646632",
+   "0.4306584864",
+   "5.603216599",
+   "6.240901849",
+   "9.188792362",
+   "9.882755168",
+   "16.64372683",
+   "373.9051456"
+  ],
+  "lambda_bar_at_mu_star": [
+   "-0.3798098147086659111131210730429795427978",
+   "0.9250645948532290832621374018763892043404"
+  ]
+ },
+ "upper": {
+  "mu_star": "0.6178442682090631787273667106004179967020726891688374586761697093386839",
+  "lambda_c_estimate": [
+   "-0.38173537171286892993842443600135308169202980879329801444502110300124973372257792",
+   "0.92427166243655754936063401474262593928922898869935799083227130025435312039580700"
+  ],
+  "stable_direction": -1,
+  "loglog_slope_stable_split": 0.4999756166660088,
+  "loglog_slope_unstable_rho_minus_1": 0.5001323237563788,
+  "loglog_slope_krein_form": 0.5007002552262095,
+  "loglog_slope_one_minus_overlap": 1.0000182895319547,
+  "stable_side_krein_sign_pairs": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ]
+  ],
+  "singular_values_at_mu_star": [
+   "2.458533699e-62",
+   "0.09213746620",
+   "0.1646985651",
+   "0.2987894709",
+   "0.3007506970",
+   "0.5304218038",
+   "5.170426898",
+   "7.650512468",
+   "9.189822016",
+   "9.721178681",
+   "16.84143475",
+   "481.1170349"
+  ],
+  "lambda_bar_at_mu_star": [
+   "-0.3817353717128689299384244360013530816920",
+   "0.9242716624365575493606340147426259392892"
+  ]
+ }
+}

@@ -1,0 +1,1466 @@
+[
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.0032686325210184997,
+    "spectral_radius": 1.0155774919246858,
+    "closure": 2.5760005240016426e-11,
+    "symplectic_defect": 1.783523342577577e-08,
+    "runtime_seconds": 1.1939058170000862,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 21554,
+    "accepted_steps": 1664,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.0032686340016332416,
+    "spectral_radius": 1.0155774954972456,
+    "closure": 2.099248552767108e-11,
+    "symplectic_defect": 1.5503108100285794e-08,
+    "runtime_seconds": 1.3112108930000659,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 23690,
+    "accepted_steps": 1866,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.0032685840229147445,
+    "spectral_radius": 1.0155773663286047,
+    "closure": 2.985084401885274e-12,
+    "symplectic_defect": 5.434886465810008e-09,
+    "runtime_seconds": 1.4807050810001101,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 26882,
+    "accepted_steps": 2110,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.0032685766698996588,
+    "spectral_radius": 1.015577359548943,
+    "closure": 1.2478118907068014e-11,
+    "symplectic_defect": 5.8448012087967605e-09,
+    "runtime_seconds": 1.5274160850000271,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 28310,
+    "accepted_steps": 2246,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.003268574103228783,
+    "spectral_radius": 1.0155773427186243,
+    "closure": 1.3205894060577816e-11,
+    "symplectic_defect": 4.418674344539027e-09,
+    "runtime_seconds": 1.692561355999942,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 30578,
+    "accepted_steps": 2447,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.599,
+    "param": [
+      0.16013137537229286,
+      0.12694631416796068,
+      8.869376367636894
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.003268569988415404,
+    "spectral_radius": 1.0155773431868906,
+    "closure": 8.607963300488741e-12,
+    "symplectic_defect": 2.6129841182351907e-09,
+    "runtime_seconds": 1.7431098790000306,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16012837069742286,
+            0.12697127102054012,
+            8.86974138393063
+          ],
+          "residual": 0.0027098979369788705
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16013154651912312,
+            0.12694641525561068,
+            8.8693796642795
+          ],
+          "residual": 1.1463424886004603e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.16013137537229286,
+            0.12694631416796068,
+            8.869376367636894
+          ],
+          "residual": 1.3205894060577816e-11
+        }
+      ],
+      "runtime_seconds": 5.1128932549999035,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 31790,
+    "accepted_steps": 2551,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.004225032211229607,
+    "spectral_radius": 1.0000000037750698,
+    "closure": 4.310843348953597e-11,
+    "symplectic_defect": 2.1230174569163853e-08,
+    "runtime_seconds": 1.312360101999957,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 21638,
+    "accepted_steps": 1663,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.004225029526313762,
+    "spectral_radius": 1.000000003939656,
+    "closure": 2.988981284701708e-11,
+    "symplectic_defect": 1.4838693954605431e-08,
+    "runtime_seconds": 1.3282131390000131,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 23738,
+    "accepted_steps": 1866,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.0042250872700044795,
+    "spectral_radius": 1.0000000000414477,
+    "closure": 4.945540288056605e-12,
+    "symplectic_defect": 3.1454636210155263e-09,
+    "runtime_seconds": 1.509276223000029,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 26774,
+    "accepted_steps": 2108,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.004225091066285991,
+    "spectral_radius": 1.000000000433817,
+    "closure": 9.997396790625834e-12,
+    "symplectic_defect": 3.3830533482413314e-09,
+    "runtime_seconds": 1.6515701760000638,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 28190,
+    "accepted_steps": 2243,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.004225098444956998,
+    "spectral_radius": 1.000000001485063,
+    "closure": 1.3511370841601256e-11,
+    "symplectic_defect": 7.110854495141958e-09,
+    "runtime_seconds": 1.6847022029999152,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 30662,
+    "accepted_steps": 2445,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.5991,
+    "param": [
+      0.1600676326339065,
+      0.1270290667792428,
+      8.86901077122796
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.004225091119231639,
+    "spectral_radius": 1.0000000011076726,
+    "closure": 1.3797105005795146e-11,
+    "symplectic_defect": 3.801555166673874e-09,
+    "runtime_seconds": 1.7389650660001053,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.16006466878998254,
+            0.12705401686718293,
+            8.86937585458272
+          ],
+          "residual": 0.0027108746121453954
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.16006780340904164,
+            0.12702916759924604,
+            8.869014059698655
+          ],
+          "residual": 1.145142147218614e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1600676326339065,
+            0.1270290667792428,
+            8.86901077122796
+          ],
+          "residual": 1.3511370841601256e-11
+        }
+      ],
+      "runtime_seconds": 4.977081389999967,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 31778,
+    "accepted_steps": 2549,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.013493512070294145,
+    "spectral_radius": 1.0000000016621644,
+    "closure": 1.5179690837641147e-11,
+    "symplectic_defect": 1.5308881775306743e-08,
+    "runtime_seconds": 1.1109861400000227,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 19982,
+    "accepted_steps": 1521,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.013493520334332043,
+    "spectral_radius": 0.9999999998305996,
+    "closure": 1.1939921273906862e-11,
+    "symplectic_defect": 1.3123135284834793e-08,
+    "runtime_seconds": 1.2262961609999365,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 22166,
+    "accepted_steps": 1739,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.013493596608912029,
+    "spectral_radius": 1.0000000007423033,
+    "closure": 1.792063719641135e-11,
+    "symplectic_defect": 3.2602573923325644e-09,
+    "runtime_seconds": 1.3800699130000567,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 24734,
+    "accepted_steps": 1928,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.013493587234276738,
+    "spectral_radius": 1.0000000004055951,
+    "closure": 1.6506185307463284e-11,
+    "symplectic_defect": 2.259491976019383e-09,
+    "runtime_seconds": 1.4620270479999817,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 26258,
+    "accepted_steps": 2079,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": 0.013493590517288823,
+    "spectral_radius": 1.0000000002076053,
+    "closure": 1.295621943064873e-11,
+    "symplectic_defect": 1.8222506496664555e-09,
+    "runtime_seconds": 1.7115763930000867,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 28202,
+    "accepted_steps": 2235,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6178,
+    "param": [
+      0.1492346002865794,
+      0.1462932942010816,
+      8.864842743594398
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": 0.013493588008800739,
+    "spectral_radius": 1.000000001217091,
+    "closure": 1.3099493711976606e-11,
+    "symplectic_defect": 3.630557370189872e-09,
+    "runtime_seconds": 1.740805526000031,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492948891313725,
+            0.14635867259036922,
+            8.866291495498984
+          ],
+          "residual": 0.002950658813568186
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1492348014359293,
+            0.14629342824045266,
+            8.864846136235753
+          ],
+          "residual": 1.1871815562836119e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1492346002865794,
+            0.1462932942010816,
+            8.864842743594398
+          ],
+          "residual": 1.295621943064873e-11
+        }
+      ],
+      "runtime_seconds": 4.821059132999949,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 29546,
+    "accepted_steps": 2353,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.01712220909233464,
+    "spectral_radius": 1.036056771438128,
+    "closure": 2.919517405608474e-11,
+    "symplectic_defect": 1.0742624203344008e-08,
+    "runtime_seconds": 1.1411746699999412,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 19982,
+    "accepted_steps": 1520,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 2e-12,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.017122202160889444,
+    "spectral_radius": 1.0360567618145773,
+    "closure": 2.442679224038194e-11,
+    "symplectic_defect": 9.792165459522389e-09,
+    "runtime_seconds": 1.2903593940000064,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 22154,
+    "accepted_steps": 1738,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.017122137684777883,
+    "spectral_radius": 1.0360566923514503,
+    "closure": 3.5745869155293097e-12,
+    "symplectic_defect": 2.4206160187749318e-09,
+    "runtime_seconds": 1.3546560489999138,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 24806,
+    "accepted_steps": 1928,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 3e-13,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.01712212712258232,
+    "spectral_radius": 1.0360566886340066,
+    "closure": 5.990382072763173e-12,
+    "symplectic_defect": 1.5975384796789146e-09,
+    "runtime_seconds": 1.5269845360001,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 26294,
+    "accepted_steps": 2079,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": null,
+    "D": -0.017122120842019584,
+    "spectral_radius": 1.0360566822309154,
+    "closure": 1.0369200290072378e-11,
+    "symplectic_defect": 8.433442772459424e-09,
+    "runtime_seconds": 1.6553825360000474,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 28118,
+    "accepted_steps": 2233,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  },
+  {
+    "mu": 0.6179,
+    "param": [
+      0.1491985272914962,
+      0.14643110232203782,
+      8.86549804140978
+    ],
+    "rtol": 9e-14,
+    "atol": 1e-15,
+    "max_step": 0.01,
+    "D": -0.01712213224868897,
+    "spectral_radius": 1.0360566877109112,
+    "closure": 2.8964270218367894e-12,
+    "symplectic_defect": 2.93814607523368e-09,
+    "runtime_seconds": 1.584820690000015,
+    "correction": {
+      "converged": true,
+      "target_met": true,
+      "history": [
+        {
+          "iteration": 0,
+          "param": [
+            0.1492572315192165,
+            0.14649457216947098,
+            8.866906376585218
+          ],
+          "residual": 0.0028488479304839207
+        },
+        {
+          "iteration": 1,
+          "param": [
+            0.1491987152505231,
+            0.14643122773418568,
+            8.865501206445416
+          ],
+          "residual": 1.1192089917066994e-06
+        },
+        {
+          "iteration": 2,
+          "param": [
+            0.1491985272914962,
+            0.14643110232203782,
+            8.86549804140978
+          ],
+          "residual": 1.0369200290072378e-11
+        }
+      ],
+      "runtime_seconds": 4.687497522000058,
+      "rtol": 9e-14,
+      "atol": 1e-15,
+      "max_step": null
+    },
+    "integration_success": true,
+    "integration_status": 0,
+    "integration_message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 29522,
+    "accepted_steps": 2352,
+    "precision": "IEEE binary64",
+    "method": "DOP853",
+    "force_backend": "numpy (Numba unavailable)"
+  }
+]

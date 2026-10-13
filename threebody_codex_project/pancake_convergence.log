@@ -1,0 +1,38 @@
+mass 0.599
+Traceback (most recent call last):
+  File "/mnt/data/pancake_convergence_check.py", line 5, in <module>
+    p,_,_=correction(mu,guess,rtol=9e-14,atol=1e-15)
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/threebody_expand.py", line 72, in correction
+    res=least_squares(lambda z:compute(z)[0],np.asarray(guess,dtype=float),jac=lambda z:compute(z)[1],xtol=2e-14,ftol=2e-14,gtol=2e-14,max_nfev=12)
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/_lib/_util.py", line 717, in inner
+    return func(*args, **kwargs)
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_lsq/least_squares.py", line 1019, in least_squares
+    result = trf(vector_fun.fun, vector_fun.jac, x0, f0, J0, lb, ub, ftol, xtol,
+                 gtol, max_nfev, x_scale, loss_function, tr_solver,
+                 tr_options.copy(), verbose, callback=callback_wrapped)
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_lsq/trf.py", line 120, in trf
+    return trf_no_bounds(
+        fun, jac, x0, f0, J0, ftol, xtol, gtol, max_nfev, x_scale,
+        loss_function, tr_solver, tr_options, verbose, callback=callback)
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_lsq/trf.py", line 514, in trf_no_bounds
+    f_new = fun(x_new)
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_differentiable_functions.py", line 743, in fun
+    self._update_fun()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_differentiable_functions.py", line 707, in _update_fun
+    self.f = self.fun_wrapped(xp_copy(self.x))
+             ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_differentiable_functions.py", line 424, in __call__
+    return np.atleast_1d(self.fun(x))
+                         ~~~~~~~~^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/scipy/optimize/_lsq/least_squares.py", line 263, in __call__
+    return self.f(x, *self.args, **self.kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/threebody_expand.py", line 72, in <lambda>
+    res=least_squares(lambda z:compute(z)[0],np.asarray(guess,dtype=float),jac=lambda z:compute(z)[1],xtol=2e-14,ftol=2e-14,gtol=2e-14,max_nfev=12)
+                               ~~~~~~~^^^
+  File "/mnt/data/threebody_expand.py", line 65, in compute
+    if not sol.success: raise RuntimeError(sol.message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Required step size is less than spacing between numbers.

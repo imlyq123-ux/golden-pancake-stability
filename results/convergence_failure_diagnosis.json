@@ -1,0 +1,16 @@
+{
+  "historical_seed_mass": 0.601,
+  "original_guess": [
+    0.1588543325486168,
+    0.12862618795339678,
+    8.862430796972436
+  ],
+  "historical_exception": "Required step size is less than spacing between numbers.",
+  "reproduced_exception": false,
+  "returned_param": [
+    0.16013137537192954,
+    0.1269463141676171,
+    8.869376367645883
+  ],
+  "residual": 2.217727954403892e-12
+}

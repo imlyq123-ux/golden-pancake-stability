@@ -1,0 +1,9 @@
+# Exploratory double-precision scripts only; record resolved versions in your environment.
+numpy
+scipy
+numba
+pandas
+matplotlib
+# For the new verification code, choose and lock a suitable multiprecision backend.
+# pytest for reproducibility tests.
+pytest

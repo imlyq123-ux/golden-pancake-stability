@@ -1,0 +1,30 @@
+Original unbounded corrector, mu=.599, nearest seed: 0.601
+mass 0.599 corrected [0.16013138 0.12694631 8.86937637]
+rtol=2e-12 step=inf D=-3.2686325210e-03 closure=2.576e-11
+rtol=2e-12 step=0.01 D=-3.2686340016e-03 closure=2.099e-11
+rtol=3e-13 step=inf D=-3.2685840229e-03 closure=2.985e-12
+rtol=3e-13 step=0.01 D=-3.2685766699e-03 closure=1.248e-11
+rtol=9e-14 step=inf D=-3.2685741032e-03 closure=1.321e-11
+rtol=9e-14 step=0.01 D=-3.2685699884e-03 closure=8.608e-12
+mass 0.5991 corrected [0.16006763 0.12702907 8.86901077]
+rtol=2e-12 step=inf D=+4.2250322112e-03 closure=4.311e-11
+rtol=2e-12 step=0.01 D=+4.2250295263e-03 closure=2.989e-11
+rtol=3e-13 step=inf D=+4.2250872700e-03 closure=4.946e-12
+rtol=3e-13 step=0.01 D=+4.2250910663e-03 closure=9.997e-12
+rtol=9e-14 step=inf D=+4.2250984450e-03 closure=1.351e-11
+rtol=9e-14 step=0.01 D=+4.2250911192e-03 closure=1.380e-11
+mass 0.6178 corrected [0.1492346  0.14629329 8.86484274]
+rtol=2e-12 step=inf D=+1.3493512070e-02 closure=1.518e-11
+rtol=2e-12 step=0.01 D=+1.3493520334e-02 closure=1.194e-11
+rtol=3e-13 step=inf D=+1.3493596609e-02 closure=1.792e-11
+rtol=3e-13 step=0.01 D=+1.3493587234e-02 closure=1.651e-11
+rtol=9e-14 step=inf D=+1.3493590517e-02 closure=1.296e-11
+rtol=9e-14 step=0.01 D=+1.3493588009e-02 closure=1.310e-11
+mass 0.6179 corrected [0.14919853 0.1464311  8.86549804]
+rtol=2e-12 step=inf D=-1.7122209092e-02 closure=2.920e-11
+rtol=2e-12 step=0.01 D=-1.7122202161e-02 closure=2.443e-11
+rtol=3e-13 step=inf D=-1.7122137685e-02 closure=3.575e-12
+rtol=3e-13 step=0.01 D=-1.7122127123e-02 closure=5.990e-12
+rtol=9e-14 step=inf D=-1.7122120842e-02 closure=1.037e-11
+rtol=9e-14 step=0.01 D=-1.7122132249e-02 closure=2.896e-12
+PASS: 24 successful integrations; consistent D signs at four endpoints.

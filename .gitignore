@@ -1,0 +1,28 @@
+# --- environments, caches and build products -------------------------------------------------
+.venv/
+.venv-repro/
+.wheels/
+.deps/
+__pycache__/
+.pytest_cache/
+tools/taylor_mpfr
+tools/gbs_mpfr
+*.json.prev
+
+# --- duplicate of the extracted original archive (threebody_codex_project/ is kept) -----------
+threebody_codex_project.zip
+
+# --- raw multiprecision outputs (~1.4 GB): accepted-step states and variational columns -----
+# Not needed to read or test the results; regenerate with the make targets (README).
+# Their SHA256 hashes are listed in results/artifact_manifest.json and in the JSON records.
+results/mp_raw/
+results/gbs_raw/
+results/gbs_raw_transition/
+results/gbs_raw_half_period/
+results/boundary_refinement/raw/
+results/seed_correction/*.csv
+results/seed_taylor_65.csv
+
+# --- superseded outputs and failed attempts (kept only in the local working copy) ------------
+results/isola_scan/*_attempt1_stalled.*
+results/**/*_pre_review.json

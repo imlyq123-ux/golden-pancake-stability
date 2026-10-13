@@ -1,0 +1,76 @@
+gbs_0p618_d80 Newton 0: residual 6.1325e-12
+gbs_0p613_d80 Newton 0: residual 1.1792e-11
+gbs_0p605_d80 Newton 0: residual 1.0622e-11
+gbs_0p597_d80 Newton 0: residual 8.974e-12
+gbs_0p6178_d80 Newton 0: residual 5.8334e-12
+gbs_0p6179_d80 Newton 0: residual 7.3587e-12
+gbs_0p618_d80 Newton 1: residual 4.2743e-23
+gbs_0p613_d80 Newton 1: residual 2.5498e-23
+gbs_0p605_d80 Newton 1: residual 5.6699e-24
+gbs_0p597_d80 Newton 1: residual 1.0383e-22
+gbs_0p6178_d80 Newton 1: residual 1.62e-23
+gbs_0p6179_d80 Newton 1: residual 4.866e-24
+gbs_0p618_d80 Newton 2: residual 6.9651e-45
+gbs_0p613_d80 Newton 2: residual 6.4611e-47
+gbs_0p605_d80 Newton 2: residual 3.1503e-46
+gbs_0p597_d80 Newton 2: residual 3.1304e-44
+gbs_0p6178_d80 Newton 2: residual 1.4934e-45
+gbs_0p6179_d80 Newton 2: residual 1.8372e-47
+gbs_0p618_d80 Newton 3: residual 1.1121e-63
+gbs_0p613_d80 Newton 3: residual 7.6834e-64
+gbs_0p605_d80 Newton 3: residual 9.3175e-64
+gbs_0p597_d80 Newton 3: residual 1.299e-63
+gbs_0p6179_d80 Newton 3: residual 8.8793e-64
+gbs_0p6178_d80 Newton 3: residual 5.0325e-64
+gbs_0p618_d80: closure 2.5928512e-62 D -0.0482174810069 rho 1.06133824682228
+gbs_0p613_d80: closure 1.3522799e-62 D 0.900673388311 rho 1.0
+gbs_0p605_d80: closure 6.3951613e-63 D 0.570193953034 rho 1.0
+gbs_0p597_d80: closure 5.9892044e-63 D -0.130874216867 rho 1.10519501319867
+gbs_0p6178_d80: closure 1.8773322e-62 D 0.0134935742849 rho 1.0
+gbs_0p6179_d80: closure 2.8357196e-62 D -0.0171221310119 rho 1.03605668720677
+gbs_0p61784426_d80 Newton 0: residual 7.5874e-12
+gbs_0p61784428_d80 Newton 0: residual 6.6204e-12
+gbs_0p5991_d80 Newton 0: residual 1.2706e-11
+gbs_0p61784426_d80 Newton 1: residual 6.9982e-24
+gbs_0p61784428_d80 Newton 1: residual 2.0001e-23
+gbs_0p612356088827994835162485140041506525569967_d80 Newton 0: residual 4.0588e-12
+gbs_0p5991_d80 Newton 1: residual 5.204e-23
+gbs_0p5990_d80 Newton 0: residual 1.2563e-11
+gbs_0p61784426_d80 Newton 2: residual 5.245e-46
+gbs_0p61784428_d80 Newton 2: residual 2.2266e-45
+gbs_0p612356088827994835162485140041506525569967_d80 Newton 1: residual 1.9787e-23
+gbs_0p5991_d80 Newton 2: residual 4.595e-45
+gbs_0p5990_d80 Newton 1: residual 4.7338e-24
+gbs_0p61784426_d80 Newton 3: residual 6.2724e-64
+gbs_0p61784428_d80 Newton 3: residual 6.2715e-64
+gbs_0p612356088827994835162485140041506525569967_d80 Newton 2: residual 1.8584e-45
+gbs_0p5991_d80 Newton 3: residual 1.7571e-63
+gbs_0p5990_d80 Newton 2: residual 6.6617e-47
+gbs_0p612356088827994835162485140041506525569967_d80 Newton 3: residual 1.255e-63
+gbs_0p5990_d80 Newton 3: residual 6.2174e-64
+gbs_0p61784426_d80: closure 2.1721025e-62 D 2.51100771165e-6 rho 1.0
+gbs_0p5876435519022455_d80 Newton 0: residual 2.2482e-11
+gbs_0p61784428_d80: closure 2.1720830e-62 D -3.60664539977e-6 rho 1.00051381137656
+gbs_0p5876435519022455_d80 Newton 1: residual 1.316e-22
+gbs_0p5991_d80: closure 2.3523242e-62 D 0.0042250999181 rho 1.0
+gbs_0p612356088827994835162485140041506525569967_d80: closure 1.8409010e-62 D 0.93886320621 rho 1.0
+gbs_0p59904378_d80 Newton 0: residual 1.0868e-11
+gbs_0p59904379_d80 Newton 0: residual 2.9302e-12
+gbs_0p5876435519022455_d80 Newton 2: residual 1.0628e-44
+gbs_0p5990_d80: closure 7.2775632e-63 D -0.00326856973218 rho 1.01557733706801
+gbs_0p59904378_d80 Newton 1: residual 1.7102e-22
+gbs_0p630314929124448_d80 Newton 0: residual 1.029e-11
+gbs_0p59904379_d80 Newton 1: residual 9.0713e-24
+gbs_0p5876435519022455_d80 Newton 3: residual 1.7812e-63
+gbs_0p630314929124448_d80 Newton 1: residual 9.2971e-23
+gbs_0p59904378_d80 Newton 2: residual 5.0945e-44
+gbs_0p59904379_d80 Newton 2: residual 1.0199e-46
+gbs_0p630314929124448_d80 Newton 2: residual 1.7549e-44
+gbs_0p59904378_d80 Newton 3: residual 1.3466e-63
+gbs_0p59904379_d80 Newton 3: residual 1.3466e-63
+gbs_0p630314929124448_d80 Newton 3: residual 1.2397e-63
+gbs_0p5876435519022455_d80: closure 2.1203474e-62 D -0.205017804653 rho 1.1636632744334
+gbs_0p59904378_d80: closure 6.3765931e-63 D -3.15137333346e-7 rho 1.00015172279654
+gbs_0p59904379_d80: closure 6.3773237e-63 D 4.33603354389e-7 rho 1.0
+gbs_0p630314929124448_d80: closure 2.8816082e-62 D -0.56010018799 rho 2.38147020737138
+wrote results/independent_gbs_orbits.json
