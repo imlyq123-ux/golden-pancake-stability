@@ -69,7 +69,7 @@ are reproduced. See [`results/independent_crosscheck.md`](results/independent_cr
 ## Installation (tested on Linux x86-64, Python 3.12.3, GCC 13.3, MPFR 4.2.1)
 
 ```bash
-git clone https://github.com/<account>/<repository>.git && cd <repository>
+git clone https://github.com/imlyq123-ux/golden-pancake-stability.git && cd golden-pancake-stability
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock.txt
 make deps        # only if /usr/include/mpfr.h is missing: fetches libmpfr-dev/libgmp-dev headers into .deps/ (no root)
